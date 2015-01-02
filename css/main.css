@@ -1,0 +1,305 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #404040;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
+body {
+	background-color: #fff;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	padding: 19px 0 0 20px;
+	background-color: #26baff;
+	color: #fff;
+}
+
+header img {
+	margin-right: 15px;
+	position: relative;
+	top: 4px;
+}
+
+
+
+#gray-area {
+	width: 100%;
+	background-color: #EDEDED;
+	min-height: 600px;
+	padding: 0px 0 0 0;
+}
+
+#container {
+	width: 940px;
+	margin: auto;
+	min-height: 200px;
+}
+
+#hero {
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0,0,0,0.7);
+}
+
+
+.center {
+	text-align: center;
+}
+
+
+.section {
+	width: 100%;
+	min-height: 200px;
+	margin: 20px 0 20px 0;
+}
+
+
+
+
+
+.sort-bar {
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #d6d6d6;
+	border-top:  1px solid #d6d6d6;
+	height: 50px;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.bar-box {
+	width: 160px;
+	height: 50px;
+	padding-top: 14px;
+	border-right: 1px solid #d6d6d6;
+	float: left;
+	text-align: center;
+	background-color: #fff;
+	color: #898989;
+	transition: background-color 0.2s ease;
+}
+
+.bar-box a {
+	text-decoration: none;
+	color: #404040;
+}
+
+.bar-box:hover {
+	background-color: #33BBFC;
+}
+
+.bar-box:hover a {
+	color: #fff;
+}
+
+.active {
+	font-weight: 800;
+	border-bottom: 6px solid #33BBFC;
+	padding-top: 14px;
+			box-sizing:border-box;
+  	   -moz-box-sizing:border-box;
+  	-webkit-box-sizing:border-box;
+}
+
+
+
+
+.card-container {
+	height: 400px;
+	width: 300px;
+	margin-right: 10px;
+	background-color: #fff;
+	border: 1px solid #d6d6d6;
+	border-radius: 4px;
+	overflow: hidden;
+	float: left;
+}
+
+.card-top {
+	height: 150px;
+	border-bottom: 1px solid #d6d6d6;
+	overflow: hidden;
+}
+
+.card-bottom {
+	padding: 10px 15px 0 15px;
+	height: 190px;
+	min-height: 190px;
+	color: #404040;
+}
+
+.card-button {
+	height: 60px;
+}
+
+h5.creator {
+	text-align: center;
+	font-weight: 400;
+	font-size: 15px;
+	color: #898989;
+	margin-bottom: 10px;
+}
+/*
+.card-container:hover {
+	background-color: #e1e1e1;
+} */
+
+
+
+
+.board-tile {
+	width: 100%;
+	padding: 6px 10px 0 10px ;
+	margin: 20px 0 20px 0 ;
+	background-color: #F7F7F7;
+	border: 1px solid #E6E6E6;
+	border-radius: 6px;
+	min-height: 120px;
+	transition: background-color 0.2s ease;
+}
+
+.board-tile h3 {
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.board-tile p {
+	color: #898989;
+}
+
+.board-tile img {
+	position: relative;
+	top: 10px;
+	margin-right: 5px;
+}
+
+.board-tile em {
+	font-weight: 400;
+	color: #afaeae;
+}
+
+.board-tile a {
+	color: #33BBFC;
+}
+
+.board-tile:hover {
+	background-color: #fff;
+}
+
+a.drk-link {
+	color: #000;
+	text-decoration: none;
+}
+
+a.drk-link:hover {
+	text-decoration: underline;
+}
+
+
+
+.subnav {
+	margin-top: 25px;
+	margin: auto;
+	padding-top: 13px;
+	border-radius: 4px;
+	width: 615px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+	/* border: 1px solid #d6d6d6; */
+}
+
+.subnav li {
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+}
+
+.special {
+	border-bottom: 4px solid #33BBFC;
+	padding-bottom: 10px;
+	font-weight: 700;
+}
+
+
+
+
+button.start {
+	padding: 10px 30px;
+	background-color: #39b977;
+	border-radius: 4px;
+	border: 1px solid #2f9962;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	text-shadow: 0px 1px 0px #2f9962;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+button.start:hover {
+	background-color: rgb(62,199,128);
+}
+
+
+
+
+/* ========================= TYPOGRAPHY */
+
+
+h1 {
+	font-size: 76px;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 51px;
+	font-weight: 800;
+}
+
+h3 {
+	font-size: 34px;
+	font-weight: 800;
+}
+
+h4 {
+	font-size: 22px;
+	font-weight: 800;
+}
+
+p {
+	font-size: 15px;
+	line-height: 24px;
+	margin-bottom: 12px;
+}
+
+
+/* ==================================== */
+
+
+
+
+
